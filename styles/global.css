@@ -1,0 +1,74 @@
+:root {
+  --ck-z-default: 100;
+  --ck-z-panel: calc(var(--ck-z-default) + 999);
+}
+.ck-balloon-panel {
+  z-index: 9998 !important;
+}
+.ck-editor__editable_inline {
+  padding: 0 30px !important;
+}
+.ck-editor__editable {
+  min-height: 150px;
+}
+
+body {
+  --ck-z-default: 100;
+  --ck-z-modal: calc( var(--ck-z-default) + 999);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Maven Pro";
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("/Fonts/static/MavenPro-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("/Fonts/static/MavenPro-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("/Fonts/static/MavenPro-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("/Fonts/static/MavenPro-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("/Fonts/static/MavenPro-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("/Fonts/static/MavenPro-Black.ttf");
+  font-weight: 900;
+}
+.ql-tooltip.ql-editing[data-mode="link"] {
+  left: 0px !important;
+}
+.ql-tooltip.ql-editing[data-mode="video"] {
+  left: 0px !important;
+}
+.Mui-selected{
+  transition: 0.3s;
+}
+.Mui-selected{
+  background-color: #212121 !important;
+  color: white !important;
+}
